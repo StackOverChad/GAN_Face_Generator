@@ -35,8 +35,7 @@ This project demonstrates a Generative Adversarial Network (GAN) trained to gene
     Then open the provided URL in your browser.
 
 ## Model
-The GAN generator model (`gan_generator_model.pth`) was trained for [X] epochs.
-[Briefly mention architecture type: DCGAN or WGAN-GP]
+The GAN generator model (`gan_generator_model.pth`) was trained for 55 epochs.
+The architecture is based on the **Deep Convolutional Generative Adversarial Network (DCGAN)**, utilizing transposed convolutions in the generator to upsample noise into images and standard convolutions in the discriminator. Binary Cross-Entropy (BCE) loss was used for training.
 
-## Screenshots
-(Optional: Add a screenshot of your Streamlit app here if you like)
+
