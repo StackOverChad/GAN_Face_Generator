@@ -1,0 +1,32 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+VENV/
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Large data files (if you don't want to use Git LFS for some reason, but LFS is better)
+# *.pth
+# *.pt
+
+# Streamlit specific (if any temp files are generated, usually not needed for .gitignore)
+# .streamlit/
